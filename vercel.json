@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/coinmarketcap.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/coinmarketcap",
+        "dest": "api/coinmarketcap.js"
+      }
+    ]
+  }
+  
